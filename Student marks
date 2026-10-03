@@ -1,0 +1,18 @@
+// Online Java Compiler (Editor)
+// Write and run Java online using this editor.
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter the 3 subjects marks");
+        int m1=sc.nextInt();
+        int m2=sc.nextInt();
+        int m3=sc.nextInt();
+        int sum=m1+m2+m3;
+        double avg=sum/3;
+        System.out.println(sum);
+        System.out.println(avg);
+        
+        
+    }
+}

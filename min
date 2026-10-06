@@ -1,0 +1,27 @@
+// Online Java Compiler (Editor)
+// Write and run Java online using this editor.
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+         Scanner sc=new Scanner(System.in);
+            System.out.println("enter the no of arrays");
+            int n=sc.nextInt();
+            int arr[]=new int[n];
+            System.out.println("enter the array elements");
+            for(int i=0;i<n;i++){
+            arr[i]=sc.nextInt();
+            }
+            for(int i=0;i<n;i++){
+                    System.out.println(arr[i]);
+            }
+               int min=arr[0];
+            for(int i=1;i<n;i++){
+                    if(arr[i]<max){
+                            max=arr[i];
+                    }
+            }
+            System.out.println("the largest element is:"+max);
+        
+        
+    }
+}

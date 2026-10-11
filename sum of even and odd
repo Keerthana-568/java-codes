@@ -1,0 +1,31 @@
+// Online Java Compiler (Editor)
+// Write and run Java online using this editor.
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+                int  sum=0;
+                int s=0;
+        System.out.println("enter the no  arrays");
+            int n=sc.nextInt();
+             int[] arr=new int[n];
+            System.out.println("enter array elements");
+            for(int i=0;i<n;i++){
+                    arr[i]=sc.nextInt();
+                    System.out.println(arr[i]);
+            }
+                for(int i=0;i<n;i++){
+                            if(arr[i]%2==0){
+                                        sum+=arr[i];
+                                                
+                            }else{
+                                        s+=arr[i];
+                            }
+                }
+                System.out.println("the sum of even numebrs are "+sum);
+                System.out.println("the sum of odd numbers are"+s);
+            
+            
+        
+    }
+}
